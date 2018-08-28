@@ -27,8 +27,8 @@ end
 #  end
   
   def printer(array)
-  puts batch_badge_creator(array).flatten
+  puts batch_badge_creator(array).values
     
-   puts  assign_rooms(array).flatten
+   puts  assign_rooms(array).values
 
   end
