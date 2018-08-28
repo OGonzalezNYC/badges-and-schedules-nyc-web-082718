@@ -25,3 +25,10 @@ def printer(array)
       puts assignment
     end 
   end
+  
+  def printer(array)
+  puts batch_badge_creator(array).flatten
+    
+   puts  assign_rooms(array).flatten
+
+  end
